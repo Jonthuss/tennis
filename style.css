@@ -19,14 +19,14 @@ a {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
     background-color: rgba(255, 255, 255, 0.7) !important;
-    width: 200px;
+    width: 10%;
     backdrop-filter: blur(4px);
 }
 #sub_left_panel {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
     background-color: rgba(255, 255, 255, 0.5) !important;
-    width: 200px;
+    width: 10%;
     backdrop-filter: blur(4px);
 }
 #description {
@@ -36,8 +36,7 @@ a {
 }
 #images {
     background-color: rgba(255, 255, 255, 0.5) !important;
-    width: 355px !important;
-    height: 450px !important;
+    width: 20% !important;
     backdrop-filter: blur(4px);
 }
 .accordion-button.collapsed {
