@@ -1,0 +1,56 @@
+label {
+    display: inline-block;
+    width: 5em;
+}
+body {
+    background-image: url(https://images7.alphacoders.com/668/668777.jpg);
+    background-size: 100%;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+th {
+    font-size: 25px;
+    background-color: rgb(255, 255, 255);
+}
+a {
+    color: rgb(25, 29, 139);
+}
+#main_left_panel {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.7) !important;
+    width: 200px;
+    backdrop-filter: blur(4px);
+}
+#sub_left_panel {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.5) !important;
+    width: 200px;
+    backdrop-filter: blur(4px);
+}
+#description {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgba(255, 255, 255, 0.4) !important;
+    backdrop-filter: blur(4px);
+}
+#images {
+    background-color: rgba(255, 255, 255, 0.5) !important;
+    width: 355px !important;
+    height: 450px !important;
+    backdrop-filter: blur(4px);
+}
+.accordion-button.collapsed {
+    color: white;
+    background-color: rgba(80, 105, 20, 0.75);
+}
+.accordion-button.collapsed::after {
+    background: url("ball_closed.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.accordion-button:not(.collapsed)::after {
+    background: url("ball_open.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}

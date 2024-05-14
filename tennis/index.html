@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <title>Tennis</title>
+</head>
+<body class="p-3 m-0 border-0 bd-example m-0 border-0 tooltip-demo">
+    <table class="table" width="100%" border="2">
+        <thead>
+            <th scope="col">
+                Colpo
+            </th>
+            <th scope="col">
+                Effetto
+            </th>
+            <th scope="col">
+                Caratteristiche
+            </th>
+            <th scope="col">
+                Rappresentazione grafica
+            </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th id="main_left_panel" scope="row">
+                    Servizio/Battuta
+                </th>
+                <th id="sub_left_panel">
+                    Slice
+                </th>
+                <td id="description">
+
+                </td>
+                <td id="images">
+
+                </td>
+            </tr>
+            <tr>
+                <th id="main_left_panel" scope="row">
+                    
+                </th>
+                <th id="sub_left_panel">
+                    Kick
+                </th>
+                <td id="description">
+                
+                </td>
+                <td id="images">
+                
+                </td>
+            </tr>
+            <tr>
+                <th id="main_left_panel" scope="row">
+                    Diritto e Rovescio
+                </th>
+                <th id="sub_left_panel" scope="row">
+                    Topspin
+                </th>
+                <td id="description">
+                <p class="text-bg-light p-3" class="muted">Il topspin è un colpo effettuato in modo da imprimere una rotazione della palla
+                     dal'alto verso il basso nel senso della traiettoria. Tale colpo genera una traiettoria
+                     parabolica discendente ed un rimbalzo corto, frenato
+                     dalla rotazione stessa della palla. Nella parte superiore della pallina la velocità
+                     tangenziale impressa al fluido vicino alla pallina dalla sua rotazione è in direzione
+                     opposta alla velocità del flusso che investe la pallina; di conseguenza, per il fluido
+                     le due velocità sono da sottrarsi: trascurando il contributo potenziale legato alla quota,
+                     per il <a href="#" data-bs-toggle="tooltip" title="L'effetto Bernoulli spiega per cui in un fluido ideale su cui non viene applicato un lavoro, per ogni incremento della velocità di deriva si ha simultaneamente una diminuzione della pressione o un cambiamento nell'energia potenziale del fluido, non necessariamente gravitazionale.">principio di Bernoulli</a>, una diminuzione
+                     della velocità provoca un aumento di pressione.
+                     Invece, nella parte inferiore, la velocità tangenziale si somma alla velocità del flusso
+                     indisturbato, determinando una velocità di fluido maggiore e di conseguenza una depressione.
+                     È proprio tale differenza di pressione, agente sulla pallina, la responsabile della forza
+                     che la spinge verso il terreno.</p>
+                </td>
+                <td id="images">
+                <div class="accordion" id="accordionTop">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#vectorTop" aria-expanded="true" aria-controls="vectorTop">
+                            Vettori
+                        </button>
+                      </h2>
+                      <div id="vectorTop" class="accordion-collapse collapse show" data-bs-parent="#accordionTop">
+                        <div class="accordion-body">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/Topspin.png">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bounceTop" aria-expanded="true" aria-controls="bounceTop">
+                            Incidenza
+                        </button>
+                      </h2>
+                      <div id="bounceTop" class="accordion-collapse collapse" data-bs-parent="#accordionTop">
+                        <div class="accordion-body">
+                            <img src="Rimbalzo_top.png">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#impactTop" aria-expanded="true" aria-controls="impactTop">
+                            Punto d'impatto
+                        </button>
+                      </h2>
+                      <div id="impactTop" class="accordion-collapse collapse" data-bs-parent="#accordionTop">
+                        <div class="accordion-body">
+                            <img src="topspin.png" width="100%">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#aeroTop" aria-expanded="true" aria-controls="aeroTop">
+                            Aerodinamica
+                        </button>
+                      </h2>
+                      <div id="aeroTop" class="accordion-collapse collapse" data-bs-parent="#accordionTop">
+                        <div class="accordion-body">
+                            <img src="aerodinamica_top.png" width="100%">
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                </td>
+            </tr>
+            <tr>
+                <th id="main_left_panel" scope="row">
+                    
+                </th>
+                <th id="sub_left_panel" scope="row">
+                    Backspin
+                </th>
+                <td id="description">
+                <p class="text-bg-light p-3" class="muted">Il backspin è un colpo effettuato in modo da imprimere una rotazione della palla
+                     dal basso verso l'alto nel senso della traiettoria. Tale colpo genera una traiettoria
+                     parabolica ascendente (a causa dell'<a href="#" data-bs-toggle="tooltip" data-bs-custom-class="custom-tooltip" title="Fenomeno fisico responsabile della variazione della traiettoria di un corpo rotante in un fluido in movimento.">
+                     effetto Magnus</a>) ed un rimbalzo corto, frenato dalla rotazione stessa della palla.
+                     La pallina ruota in senso contrario alla direzione di avanzamento, facendo si che la
+                     superficie inferiore “senta” una velocità più alta rispetto a quella di avanzamento,
+                     mentre quella superiore più bassa. In questo modo, la parte inferiore genererà più
+                     resistenza di quella superiore, causando una differenza di pressione tra le due che,
+                     a sua volta, darà vita ad una forza verso l'alto (portanza), responsabile dell'andamento
+                     fluttuante di un colpo in backspin.</p>
+                </td>
+                <td id="images">
+                <div class="accordion" id="accordionBack">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#vectorBack" aria-expanded="true" aria-controls="vectorBack">
+                            Vettori
+                        </button>
+                      </h2>
+                      <div id="vectorBack" class="accordion-collapse collapse show" data-bs-parent="#accordionBack">
+                        <div class="accordion-body">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Backspin.png">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bounceBack" aria-expanded="false" aria-controls="bounceBack">
+                            Incidenza
+                        </button>
+                      </h2>
+                      <div id="bounceBack" class="accordion-collapse collapse" data-bs-parent="#accordionBack">
+                        <div class="accordion-body">
+                            <img src="Rimbalzo_back.png">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#impactBack" aria-expanded="false" aria-controls="impactBack">
+                            Punto d'impatto
+                        </button>
+                      </h2>
+                      <div id="impactBack" class="accordion-collapse collapse" data-bs-parent="#accordionBack">
+                        <div class="accordion-body">
+                            <img src="backspin.png" width="100%">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#aeroBack" aria-expanded="false" aria-controls="aeroBack">
+                            Aerodinamica
+                        </button>
+                      </h2>
+                      <div id="aeroBack" class="accordion-collapse collapse" data-bs-parent="#accordionBack">
+                        <div class="accordion-body">
+                            <img src="aerodinamica_back.png" width="100%">
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
