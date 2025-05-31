@@ -1,7 +1,4 @@
-label {
-    display: inline-block;
-    width: 5em;
-}
+/* basic tags */
 body {
     background-image: url(https://images7.alphacoders.com/668/668777.jpg);
     background-size: 100%;
@@ -15,6 +12,11 @@ th {
 a {
     color: rgb(25, 29, 139);
 }
+p {
+    background-color: white;
+}
+
+/* table style */
 #main_left_panel {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
@@ -33,12 +35,22 @@ a {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: rgba(255, 255, 255, 0.4) !important;
     backdrop-filter: blur(4px);
+
 }
 #images {
     background-color: rgba(255, 255, 255, 0.5) !important;
-    width: 20% !important;
+    width: 25% !important;
     backdrop-filter: blur(4px);
+    text-align: center;
 }
+
+/* boostrap toolip style */
+.custom-tooltip {
+    --bs-tooltip-bg: var(--bs-indigo);
+    --bs-tooltip-color: var(--bs-white);
+}
+
+/* bootstrap accordion style */
 .accordion-button.collapsed {
     color: white;
     background-color: rgba(80, 105, 20, 0.75);
