@@ -12,7 +12,7 @@
     <script type="text/javascript" src="script.js"></script>
     <title>Tennis</title>
 </head>
-<body class="p-3 m-0 border-0 bd-example m-0 border-0 tooltip-demo">
+<body class="p-3 m-0">
     <table class="table" width="100%" border="2">
         <thead>
             <th scope="col">
@@ -31,50 +31,115 @@
         </thead>
         <tbody>
             <tr>
-                <th id="main_left_panel" scope="row">
-                    Servizio/Battuta
+                <th id="main_left_panel" scope="row" rowspan="2">
+                    Servizio (o Battuta)
                 </th>
                 <th id="sub_left_panel">
-                    Slice
+                  <a href="https://youtu.be/HObYz-a_-ss?feature=shared">Slice</a>
                 </th>
                 <td id="description">
-
+                <p class="p-3 mb-2 muted">Questa variante del servizio, per via dell'effetto impresso, direziona la palla verso l'esterno,
+                     o verso il corpo dell'avversario. Il servizio Slice è efficace sulle superfici lisci ed è molto usato
+                     come seconda di servizio, essendo meno rischioso del servizio Topspin.
+                     Nella preparazione del colpo, la palla viene lanciata più frontalmente rispetto al servizio piatto,
+                     per essere colpita lateralmente e trasversalmente tale da imprimere l'effetto desiderato.                    
+                     La palla, viene spazzolata cercando una traiettoria che possa uscire dal piatto corde con notevole
+                     rotazione laterale tale da accentuare la traiettoria ad uscire. Il lancio dovrà essere effettuate più
+                     a destra rispetto alla prima di servizio. La racchetta colpirà la palla ad ore 3. Un errore molto
+                     comune è quello di rallentare lo <a href="#" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                     data-bs-custom-class="custom-tooltip" title="Lo Swing succede la fase di apertura(Backswing) e rappresenta il movimento da eseguire per impattare la pallina. Per eseguirlo occorre essere in posizione frontale rispetto alla rete e contemporaneamente far scendere la racchetta verso il basso, fino all'altezza del contatto con la pallina, quindi portarla in avanti per colpire la pallina.">Swing</a> pensando che un movimento più lento possa dare maggiore di sicurezza,
+                     si può cambiare lancio, angolo d'impatto e rotazione, ma lo Swing non va rallentato nè bloccato nella sua parte finale.</p>
                 </td>
-                <td id="images">
-
+                <td id="images" rowspan="2">
+                  <div class="accordion" id="accordionServe">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#vectorServe" aria-expanded="true" aria-controls="vectorServe">
+                            Vettori
+                        </button>
+                      </h2>
+                      <div id="vectorServe" class="accordion-collapse collapse" data-bs-parent="#accordionServe">
+                        <div class="accordion-body">
+                            <img src="vectorServeKIck.jpg" width="100%">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#impactServe" aria-expanded="true" aria-controls="impactServe">
+                            Punto d'impatto
+                        </button>
+                      </h2>
+                      <div id="impactServe" class="accordion-collapse collapse show" data-bs-parent="#accordionServe">
+                        <div class="accordion-body">
+                            <img src="slice_and_kick_tennis_serve.png">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#trajectoryServe" aria-expanded="true" aria-controls="trajectoryServe">
+                            Traiettoria
+                        </button>
+                      </h2>
+                      <div id="trajectoryServe" class="accordion-collapse collapse" data-bs-parent="#accordionServe">
+                        <div class="accordion-body">
+                            <img src="https://tennis-uni.com/wp-content/uploads/tennis-serve-types.png" width="100%">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#serviceToss" aria-expanded="true" aria-controls="serviceToss">
+                            Lancio
+                        </button>
+                      </h2>
+                      <div id="serviceToss" class="accordion-collapse collapse" data-bs-parent="#accordionServe">
+                        <div class="accordion-body">
+                            <img src="toss.png">
+                        </div>
+                      </div>
+                    </div>
+                </div>
                 </td>
             </tr>
             <tr>
-                <th id="main_left_panel" scope="row">
-                    
-                </th>
                 <th id="sub_left_panel">
-                    Kick
+                  <a href="https://youtu.be/O9Y0elFmJeM?feature=shared&t=13">Kick</a>
                 </th>
                 <td id="description">
-                
-                </td>
-                <td id="images">
-                
+                <p class="p-3 mb-2 muted">Rappresenta un'altra variante al servizio piatto, l'obiettivo è fare uscire la palla dal piatto corde
+                     con una rotazione tale da procurare un rimbalzo molto alto, al contatto col terreno. Il lancio della palla
+                     sarà spostato più a sinistra (destrimani) e non davanti al corpo rispetto al Flat. La racchetta colpirà
+                     la palla con una traiettoria che sarà, immaginando un orologio, dalle ore 08 alle ore 02 e con una importante
+                     spinta verticale procurata dal corpo. La traiettoria alta sulla rete, garantisce sicurezza e molta rotazione
+                     con lo scopo di tenere lontano l'avversario. Il servizio Kick può essere una valida soluzione anche per il
+                     <a href="#" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                     data-bs-custom-class="custom-tooltip" title="Il Serve & Volley è una tecnica/schema di gioco del tennis che consiste nello spostarsi subito a rete dopo aver eseguito la battuta o servizio, cercando quindi di colpire la palla di risposta avversaria al volo ovvero in volée, demi-volée o smash evitando passanti e pallonetti avversari.">Serve & Volley</a>.
+                     Nella preparazione che precede l'impatto, la palla viene lanciata appena dietro la testa e al di sopra della spalla sinistra,
+                     di conseguenza prima dell'impatto la racchetta dovrà eseguire un movimento che va da sinistra a destra.                  
+                     Il movimento del braccio che impugna la racchetta, cambia nella parte finale e l'impatto con la palla sarà meno diretto,
+                     con un movimento che andrà dal basso verso l'alto.</p>
                 </td>
             </tr>
             <tr>
-                <th id="main_left_panel" scope="row">
+                <th id="main_left_panel" scope="row" rowspan="2">
                     Diritto e Rovescio
                 </th>
                 <th id="sub_left_panel" scope="row">
-                    Topspin
+                  <a href="https://youtu.be/LodM2qcRo8Y?feature=shared&t=187">Topspin</a>
                 </th>
                 <td id="description">
-                <p class="text-bg-light p-3" class="muted">Il topspin è un colpo effettuato in modo da imprimere una rotazione della palla
+                <p class="p-3 mb-2 muted">Il Topspin è un colpo effettuato in modo da imprimere una rotazione della palla
                      dal'alto verso il basso nel senso della traiettoria. Tale colpo genera una traiettoria
                      parabolica discendente ed un rimbalzo corto, frenato
                      dalla rotazione stessa della palla. Nella parte superiore della pallina la velocità
                      tangenziale impressa al fluido vicino alla pallina dalla sua rotazione è in direzione
                      opposta alla velocità del flusso che investe la pallina; di conseguenza, per il fluido
                      le due velocità sono da sottrarsi: trascurando il contributo potenziale legato alla quota,
-                     per il <a href="#" data-bs-toggle="tooltip" title="L'effetto Bernoulli spiega per cui in un fluido ideale su cui non viene applicato un lavoro, per ogni incremento della velocità di deriva si ha simultaneamente una diminuzione della pressione o un cambiamento nell'energia potenziale del fluido, non necessariamente gravitazionale.">principio di Bernoulli</a>, una diminuzione
-                     della velocità provoca un aumento di pressione.
+                     per il <a href="#" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                     data-bs-custom-class="custom-tooltip" title="L'effetto Bernoulli spiega per cui in un fluido ideale su cui non viene applicato un lavoro, per ogni incremento della velocità di deriva si ha simultaneamente una diminuzione della pressione o un cambiamento nell'energia potenziale del fluido, non necessariamente gravitazionale.">principio di Bernoulli</a>,
+                     una diminuzione della velocità provoca un aumento di pressione.
                      Invece, nella parte inferiore, la velocità tangenziale si somma alla velocità del flusso
                      indisturbato, determinando una velocità di fluido maggiore e di conseguenza una depressione.
                      È proprio tale differenza di pressione, agente sulla pallina, la responsabile della forza
@@ -134,23 +199,21 @@
                 </td>
             </tr>
             <tr>
-                <th id="main_left_panel" scope="row">
-                    
-                </th>
                 <th id="sub_left_panel" scope="row">
-                    Backspin
+                  <a href="https://youtu.be/XpA-Cs2poEU?feature=shared&t=269">Backspin</a>
                 </th>
                 <td id="description">
-                <p class="text-bg-light p-3" class="muted">Il backspin è un colpo effettuato in modo da imprimere una rotazione della palla
+                <p class="p-3 mb-2 muted">Il Backspin è un colpo effettuato in modo da imprimere una rotazione della palla
                      dal basso verso l'alto nel senso della traiettoria. Tale colpo genera una traiettoria
-                     parabolica ascendente (a causa dell'<a href="#" data-bs-toggle="tooltip" data-bs-custom-class="custom-tooltip" title="Fenomeno fisico responsabile della variazione della traiettoria di un corpo rotante in un fluido in movimento.">
+                     parabolica ascendente (a causa dell'<a href="#" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                     data-bs-custom-class="custom-tooltip" title="Fenomeno fisico responsabile della variazione della traiettoria di un corpo rotante in un fluido in movimento.">
                      effetto Magnus</a>) ed un rimbalzo corto, frenato dalla rotazione stessa della palla.
                      La pallina ruota in senso contrario alla direzione di avanzamento, facendo si che la
                      superficie inferiore “senta” una velocità più alta rispetto a quella di avanzamento,
                      mentre quella superiore più bassa. In questo modo, la parte inferiore genererà più
                      resistenza di quella superiore, causando una differenza di pressione tra le due che,
                      a sua volta, darà vita ad una forza verso l'alto (portanza), responsabile dell'andamento
-                     fluttuante di un colpo in backspin.</p>
+                     fluttuante di un colpo in Backspin.</p>
                 </td>
                 <td id="images">
                 <div class="accordion" id="accordionBack">
